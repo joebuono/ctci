@@ -3,7 +3,7 @@
 3.4 Queue via Stacks: Implement a MyQueue class which implements a queue using two stacks. 
 
 Solution:
-1. Always push onto the newest stack. When you pop or peek, first check if the oldest stack if empty. If so, pop off all the elements in the newest stack and push them onto the oldest stack (reversing their order). Then perform regular pop or peek. 
+1. Newest and oldest stacks. Always push onto the newest stack. When you pop or peek, first check if the oldest stack is empty. If so, pop off all the elements in the newest stack and push them onto the oldest stack (reversing their order). Then perform regular pop or peek. 
 
 
 */
