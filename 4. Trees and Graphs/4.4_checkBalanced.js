@@ -31,7 +31,7 @@ var isBalanced = function(root) {
 // Efficient solution
 // Time: O(n)
 // Space: O(h), where h is the height of the tree
-// We are using Number.MIN_SAFE_INTEGER as an error code
+// We are using Number.MIN_SAFE_INTEGER as an error code to represent an unbalanced tree
 
 var getHeight = function(root) {
   if (!root) return -1;
