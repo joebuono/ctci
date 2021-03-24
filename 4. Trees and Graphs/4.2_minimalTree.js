@@ -18,7 +18,7 @@ var minimalTree = function(arr) {
   const middleIndex = Math.floor(arr.length / 2);
   const root = new TreeNode(arr[middleIndex]);
   root.left = minimalTree(arr.slice(0, middleIndex));
-  root.right = minimalTree(arr.slice(middleIndex));
+  root.right = minimalTree(arr.slice(middleIndex + 1));
   return root;
 };
 
